@@ -1,37 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- SEO -->
-  <meta name="description" content="Cafetería con gran variedad de cafés, postres y un ambiente único para relajarte o trabajar. Ven y disfruta de nuestra especialidad.">
-  <meta name="author" content="Raymundo">
-  <meta name="keywords" content="cafetería, café, postres, relajación, especialidades, ambiente, trabajo">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <title>Cafetería</title>
+    
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Cafetería con gran variedad de cafés, postres y un ambiente único para relajarte o trabajar. Ven y disfruta de nuestra especialidad."
+    />
+    <meta name="author" content="Raymundo Bautista Morales" />
+    <meta
+      name="keywords"
+      content="cafetería, librería, cafeína, libros, hojas, recetas de bebidas
+      calientes, trabajo"
+    />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-<title>Cafetería</title>
-  
-  <!-- Hojas de estilo -->
-  <link rel="stylesheet" href="./vendor/normalize.css">
-  <link rel="stylesheet" href="./pages/index.css">
-  
-  <!-- Favicon -->
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-</head>
-<body>
-  <div class="page">
-      <header class="header"></header>
-      <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
+   
+    
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <div class="nav_logo">
+            <a href="/">
+              <img src="images/logo_coffeeshop_dark.svg" alt="Logo del sitio" />
+            </a>
+          </div>
+
+          <ul class="nav_links">
+            <li class="nav_link"><a id="#recetas" href="#recetas">Recetas</a></li>
+            <li class="nav_link"><a href="#reservar">Reservar una mesa</a></li>
+            <li class="nav_link"><a href="#contactos">Contactos</a></li>
+          </ul>
+        </nav>
+        <div class="header_content">
+          <div class="header_intro">
+            <h1 class="header_title">
+              <span class="span_accent">Café de especialidad&nbsp;</span><br>en
+              Triple Peaks</br>
+            </h1>
+            <p class="header_description">
+              !Te damos la bienvenida a nuestra zona de estudio. Aquí tenemos
+              café para darte energía y motivar tu creatividad
+            </p>
+          </div>
+          <img
+            class="header_image"
+            src="./images/inside_coffee_shop.png"
+            alt="Cafetería con mucha variedad de bebidas"
+          />
+        </div>
+        <div class="header_footer">
+          <nav class="header_paragraph">
+            <ul class="header_paragraph">
+              <li>Horario:</li>
+              <li>Lunes a Viernes de (10 a 19h)</li>
+              <li>Sábado y Domingo de (11 a 18h)</li>
+            </ul>
+          </nav>
+          <p class="header_footer_paragraph">
+            Avenida del éxito 200, Ciudad Triple Peaks
+          </p>
+        </div>
+      </header>
+      <main class="recipes">
+        <h2 id="recetas" class="recipes_title">Recetas</h2>
+        <p class="recipes_subtitle">Echa un vistazo a las recetas que hemos reunido</p>
+        <div class="recipes_videos">
+          <div class="recipes_video_item">
+           <iframe width="480" height="273" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=drAwa1ukT6CO3kfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           <div class="recipes_video_caption">
+            <p>Receta en Aeropress</p>
+            <p> ~5m</p>
+           </div>
+           <p class="recipes_video_caption"></p>
+          </div>
+          <div class="recipes_video_item">
+          <iframe width="480" height="273" src="https://www.youtube.com/embed/st571DYYTR8?si=59W5xmgQxjwLQvAP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="recipes_video_caption">
+            <p>Receta en cafetera francesa</p>
+            <p> ~15m</p>
+           </div>  
+        </div>
+          </div>
+          <div class="recipes_video_caption">
+          
+          
+          </div>
+
       </main>
-      <footer class="footer"></footer>
+      <footer class="page"></footer>
     </div>
-</body>
+  </body>
 </html>
