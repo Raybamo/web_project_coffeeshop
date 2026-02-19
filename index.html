@@ -6,7 +6,6 @@
 
     <title>Cafetería</title>
 
-    <!-- SEO -->
     <meta
       name="description"
       content="Cafetería con gran variedad de cafés, postres y un ambiente único para relajarte o trabajar. Ven y disfruta de nuestra especialidad."
@@ -17,7 +16,6 @@
       content="cafetería, librería, cafeína, libros, hojas, recetas de bebidas
       calientes, trabajo"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,7 +30,6 @@
       rel="stylesheet"
     />
 
-    <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
@@ -41,7 +38,10 @@
         <nav class="nav">
           <nav class="nav__logo">
             <a href="/">
-              <img src="images/logo_coffeeshop_dark.svg" alt="Logo del sitio" />
+              <img
+                src="images/logo_coffeeshop_dark.svg"
+                alt="Logo del oscuro sitio"
+              />
             </a>
           </nav>
           <ul class="nav__links">
@@ -154,7 +154,6 @@
                 placeholder="Nombre"
                 id="nombre"
               />
-
               <label class="form__label" for="comensales"
                 >Número de comensales *</label
               >
@@ -166,7 +165,6 @@
                 placeholder="1-8"
                 id="comensales"
               />
-
               <label class="form__label" for="fecha">Fecha y hora *</label>
               <input type="date" class="form__input" id="fecha" />
 
@@ -179,11 +177,9 @@
                 placeholder="email@email.com"
                 id="e-mail"
               />
-
               <button class="form__button" type="submit">
                 Reservar una mesa
               </button>
-
               <label class="form__label form__label_checkbox">
                 <input
                   type="checkbox"
@@ -195,7 +191,23 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <nav class="nav">
+            <img
+              class="footer__logo"
+              img
+              src=".//images/logo_coffeeshop_light.svg"
+              alt="Logo del claro sitio"
+            />
+            <ul class="footer__social">
+              <li class="footer__social_heading">Redes sociales</li>
+              <li class="footer__list-item">Instagram</li>
+              <li class="footer__list-item">Facebook</li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

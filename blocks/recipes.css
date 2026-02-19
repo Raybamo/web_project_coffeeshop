@@ -1,0 +1,45 @@
+@import url(../blocks/recipes.css);
+
+
+
+.recipes__title {
+  padding-top: 100px;
+  padding-left: 80px;
+  max-width: 580px;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.recipes__subtitle {
+  padding-top: 24px;
+  padding-left: 80px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+.recipes__videos {
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 216px;
+}
+.recipes__video-item {
+  margin: 0;
+}
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
