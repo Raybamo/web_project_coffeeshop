@@ -175,7 +175,8 @@
 
 .reservation__title {
   padding-top: 100px;
-  padding-bottom: 80px;
+  margin: 0 auto;
+  margin-bottom: 80px;
   display: flex;
   justify-content: center;
   font-family: Inter;
@@ -183,12 +184,13 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0 auto;
+  
 }
 .form__fieldset {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: none;
 }
 
 .form__input {
